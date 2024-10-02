@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+.container-box {
+    width: 50%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+

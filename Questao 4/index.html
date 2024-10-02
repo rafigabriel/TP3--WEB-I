@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Auto Cuidado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Cafeteria Auto Cuidado</h1>
+        
+        <h2>Escolha sua bebida:</h2>
+        <div class="beverages">
+            <label>
+                <input type="radio" name="bebida" value="cafe" onchange="toggleTorra()">
+                Café puro
+            </label>
+            <label>
+                <input type="radio" name="bebida" value="cafe_com_leite" onchange="toggleTorra()">
+                Café com leite
+            </label>
+            <label>
+                <input type="radio" name="bebida" value="chocolate" onchange="toggleTorra()">
+                Chocolate
+            </label>
+        </div>
+
+        <h2>Torra do café:</h2>
+        <div class="torra">
+            <label>
+                <input type="radio" name="torra" value="leve">
+                Leve
+            </label>
+            <label>
+                <input type="radio" name="torra" value="media">
+                Média
+            </label>
+            <label>
+                <input type="radio" name="torra" value="forte">
+                Forte
+            </label>
+        </div>
+
+        <h2>Acompanhamentos:</h2>
+        <div class="acompanhamentos">
+            <label>
+                <input type="checkbox" name="acompanhamento" value="chantilly">
+                Chantilly
+            </label>
+            <label>
+                <input type="checkbox" name="acompanhamento" value="raspas">
+                Raspas de chocolate
+            </label>
+            <label>
+                <input type="checkbox" name="acompanhamento" value="ovomaltine">
+                Ovomaltine
+            </label>
+        </div>
+
+        <button onclick="fazerPedido()">Fazer Pedido</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

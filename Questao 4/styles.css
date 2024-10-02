@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: "Handlee", cursive;
+}
+
+.container {
+    background-image: url(cafeteria.jpg);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+}
+h1, h2 {
+    text-align: center;
+}
+
+.beverages, .torra, .acompanhamentos {
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.torra input {
+    cursor: pointer;
+}

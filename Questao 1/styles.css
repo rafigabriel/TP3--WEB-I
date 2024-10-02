@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#forms{
+    padding:20px;
+}
+#email{
+    text-align: right;
+}
+#senha{
+    text-align: right;
+}
+
+
+input[type="text"]{
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+input[type="password"]{
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #535353;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(115deg, #843cdb 0, #6e37db 25%, #5333db 50%, #2930db 75%, #002eda 100%);
+    color: white;
+    cursor: pointer;
+}
+.linha-vertical {
+    position: absolute;
+    height: 100vh;/*Altura da linha*/
+    border-left: 50px solid #A0C655;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    left: 500px;
+    
+}
